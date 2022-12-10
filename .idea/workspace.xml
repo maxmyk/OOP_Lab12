@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0943127-35b6-4556-8d14-502984eb96b5" name="Changes" comment="" />
+    <list default="true" id="f0943127-35b6-4556-8d14-502984eb96b5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chainofresponsibility/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainofresponsibility/ATM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chainofresponsibility/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainofresponsibility/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chainofresponsibility/Handler20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainofresponsibility/Handler20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chainofresponsibility/Handler5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainofresponsibility/Handler5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chainofresponsibility/Handler50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainofresponsibility/Handler50.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/decorator/CachedDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decorator/CachedDocument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/decorator/DatabaseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decorator/DatabaseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/decorator/TimedDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decorator/TimedDocument.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IU4rziPeS8PHxXBcXAtk5eNVAj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -17,9 +46,67 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/maxmyk/OOP2022/labs/Lab12/Lab12/smart.cache.sqlite",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
   }
 }]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ATM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chainofresponsibility.ATM" />
+      <module name="Lab12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chainofresponsibility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="decorator.DatabaseHandler" />
+      <module name="Lab12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="decorator.DatabaseHandler" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="decorator.Main" />
+      <module name="Lab12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="decorator.DatabaseHandler" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DatabaseHandler" />
+        <item itemvalue="Application.ATM" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -28,8 +115,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670223039358</updated>
+      <workItem from="1670223042540" duration="806000" />
+      <workItem from="1670224027969" duration="3892000" />
+      <workItem from="1670533063843" duration="276000" />
+      <workItem from="1670684137619" duration="911000" />
+      <workItem from="1670691311530" duration="8736000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
