@@ -12,7 +12,7 @@ import java.util.Arrays;
 public class DatabaseHandler {
     private static DatabaseHandler dbconnection;
 
-    private Connection connection;
+    private final Connection connection;
 
     @SneakyThrows
     DatabaseHandler() {

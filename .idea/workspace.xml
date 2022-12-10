@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0943127-35b6-4556-8d14-502984eb96b5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f0943127-35b6-4556-8d14-502984eb96b5" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/decorator/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chainofresponsibility/ATM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainofresponsibility/ATM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chainofresponsibility/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainofresponsibility/Handler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chainofresponsibility/Handler20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainofresponsibility/Handler20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chainofresponsibility/Handler5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainofresponsibility/Handler5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chainofresponsibility/Handler50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chainofresponsibility/Handler50.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/decorator/CachedDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decorator/CachedDocument.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/decorator/DatabaseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decorator/DatabaseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/decorator/TimedDocument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/decorator/TimedDocument.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit3 Test Class" />
       </list>
     </option>
   </component>
@@ -48,10 +43,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "/home/maxmyk/OOP2022/labs/Lab12/Lab12/smart.cache.sqlite",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -59,6 +57,15 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="decorator" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="ATM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chainofresponsibility.ATM" />
@@ -99,9 +106,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.testMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="decorator" />
+      <option name="MAIN_CLASS_NAME" value="decorator.MainTest" />
+      <option name="METHOD_NAME" value="testMain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MainTest.testMain" />
         <item itemvalue="Application.DatabaseHandler" />
         <item itemvalue="Application.ATM" />
       </list>
@@ -119,8 +143,16 @@
       <workItem from="1670224027969" duration="3892000" />
       <workItem from="1670533063843" duration="276000" />
       <workItem from="1670684137619" duration="911000" />
-      <workItem from="1670691311530" duration="8736000" />
+      <workItem from="1670691311530" duration="9515000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1670701378734</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670701378734</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,5 +168,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>

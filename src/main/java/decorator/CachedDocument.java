@@ -9,12 +9,10 @@ public class CachedDocument extends SmartDocument{
     @Override
     public String parse() {
         if (db.checkData(gcsPath)){
-            System.out.println("I've seen that before! -_-");
+//            System.out.println("I've seen that before! -_-");
             return new String(db.getData(gcsPath));
         }
         else{
-            System.out.println(gcsPath);
-            System.out.println(super.gcsPath);
             String result = super.parse();
             db.insertData(gcsPath, result);
             return result;
