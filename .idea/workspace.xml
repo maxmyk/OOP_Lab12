@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0943127-35b6-4556-8d14-502984eb96b5" name="Changes" comment="Slight changes + tests added">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/ci.yaml" afterDir="false" />
+    <list default="true" id="f0943127-35b6-4556-8d14-502984eb96b5" name="Changes" comment="Workflows go brrr">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/ci.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/ci.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +139,7 @@
       <workItem from="1670224027969" duration="3892000" />
       <workItem from="1670533063843" duration="276000" />
       <workItem from="1670684137619" duration="911000" />
-      <workItem from="1670691311530" duration="9698000" />
+      <workItem from="1670691311530" duration="9867000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1670701378734</created>
@@ -155,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670704829771</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Workflows go brrr">
+      <created>1670704983211</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670704983211</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +182,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Slight changes + tests added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Slight changes + tests added" />
+    <MESSAGE value="Workflows go brrr" />
+    <option name="LAST_COMMIT_MESSAGE" value="Workflows go brrr" />
   </component>
 </project>
